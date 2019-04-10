@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".TermsActivity"
+    android:orientation="vertical"
+    android:weightSum="12">
+
+    <TextView
+        android:layout_weight="1.2"
+        android:id="@+id/tandcbanner"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="7dp"
+        android:textSize="20sp"
+        android:background="@drawable/name"
+        android:text="@string/terms_and_conditions"/>
+
+    <RelativeLayout
+        android:layout_weight="8.8"
+        android:background="@drawable/name"
+        android:layout_height="0dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="17dp"
+        android:layout_width="match_parent">
+
+        <ScrollView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/tandc"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#ffffff"
+                android:padding="12dp"
+                android:layout_margin="5dp"
+                android:textSize="17sp"/>
+
+        </ScrollView>
+    </RelativeLayout>
+
+    <CheckBox
+        android:buttonTint="#ffffff"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:padding="12dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:id="@+id/checkBox"
+        android:text="@string/i_agree_to_the_terms_and_condition"/>
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_button"
+            android:text="Submit"
+            android:id="@+id/submit"
+            android:textSize="16sp"
+            android:textColor="#ffffff"/>
+
+    </RelativeLayout>
+</LinearLayout>

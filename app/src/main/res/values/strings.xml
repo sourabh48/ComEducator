@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ComEducator</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="login">Login</string>
+    <string name="not_a_existing_user_signup_now">Not a Existing User Signup Now</string>
+    <string name="name">Name</string>
+    <string name="aready_a_user_login_now">Aready a User Login Now</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="terms_and_conditions">TERMS AND CONDITIONS:</string>
+    <string name="i_agree_to_the_terms_and_condition">I AGREE TO THE TERMS AND CONDITION.</string>
+</resources>
